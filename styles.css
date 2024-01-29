@@ -13,6 +13,10 @@ header {
     color: #fff;
     padding: 10px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .top-menu ul {
@@ -42,16 +46,36 @@ header {
     background-color: #333;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.dropdown-content li{
+    margin-bottom: 10px;
+    white-space: nowrap;
+    color: brown;
+    display: block;
+}
+
+.dropdown-content ul{
+    //display: flex;  
+    //flex-wrap: wrap;
+
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    width: auto;
 }
-
 .side-menu {
     background-color: #eee;
     padding: 20px;
     width: 200px;
+    position: fixed;
+    top: 40px; /* Ajuste conforme necessário para acomodar a altura do menu superior */
+    left: 0;
+    bottom: 0;
 }
 
 .side-menu ul {
@@ -70,4 +94,5 @@ header {
 
 main {
     padding: 20px;
+    margin-left: 220px; /* Ajuste conforme necessário para acomodar a largura do menu lateral */
 }
