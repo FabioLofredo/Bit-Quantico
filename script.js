@@ -24,7 +24,7 @@ $(document).ready(function(){
 }); 
 
 
-/*
+
 $(function() {
     // jQuery goes here...
   
@@ -36,5 +36,5 @@ $(function() {
     $(".teste2").slideDown(1000,function(){alert("aaa");});
 });
 
-*/
+
 
