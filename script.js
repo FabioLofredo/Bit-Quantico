@@ -23,6 +23,27 @@
 </header>
 */
 
+/* NOTAS
+
+github
+simulador html,css,js
+obs
+exemplos w3schools
+manter notas dos exercícios feitos 
+chatgpt
+procurar google
+mndn
+stackoverflow
+
+
+*/
+/* TO DO
+
+jquery pro menu, e ver o root dos arquivos
+
+*/
+
+
 function createMenu(){
     var menu = "<header><nav class='top-menu'><ul>" // início
     menu += "<li><a href='index.html'>Home</a></li>" // home
