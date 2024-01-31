@@ -33,7 +33,7 @@ $(function() {
     $(".teste1").delay(3000).slideUp(1000).slideDown(200);
     $(".teste1").slideUp(1000).slideDown(1000);
     $(".teste2").slideUp(1000);
-    $(".teste2").slideDown(1000,function(){alert("aaa");});
+    //$(".teste2").slideDown(1000,function(){alert("aaa");});
 });
 
 
