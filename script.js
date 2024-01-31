@@ -25,11 +25,11 @@
 
 function createMenu(){
     var menu = "<header><nav class='top-menu'><ul>" // início
-    menu += "<li><a href='/pages/home.html'>Home</a></li>" // home
+    menu += "<li><a href='/index.html'>Home</a></li>" // home
     menu += "<li class='dropdown'><a href='#'>Cursos</a><div class='dropdown-content'><ul>" // início do dropdown
-    menu += "<li><a href=#>1</a></li>"
-    menu += "<li><a href=#>2</a></li>"
-    menu += "<li><a href=#>3</a></li>"
+    menu += "<li><a href=/pages/Html.html>Html</a></li>"
+    menu += "<li><a href=/pages/CSS.html>CSS</a></li>"
+    menu += "<li><a href=/pages/JavaScript.html>JavaScript</a></li>"
     menu += "</ul></div></li>" // fim do dropdown
     menu += "<li><a href='/pages/contato.html'>Contato</a></li>" // contato
     menu += "</ul></nav></header>" // fim

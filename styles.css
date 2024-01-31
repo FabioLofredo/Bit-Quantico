@@ -20,6 +20,7 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
 
 .top-menu li {
@@ -60,39 +61,13 @@ header {
     width: auto;
 }
 
-
-/* /pages/ */
-.container {
-    display:flex;
-
+#menu {
+    position: fixed;
+    width: 100%;
 }
 
-.side-menu {
-    background-color: #eee;
-    padding:10px;
-    width: auto;
-    min-height:fit-content ;
-    margin:0;
-    top: 0; 
-    left: 0;
-    bottom: 0;
-}
+main{
+    padding-top: 30px;
+    padding-left: 20px;
 
-.side-menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.side-menu li {
-    margin-bottom: 10px;
-}
-
-.side-menu a {
-    text-decoration: none;
-    color: #333;
-}
-
-main {
-    padding: 10px;
-    margin-left: 0; 
 }
