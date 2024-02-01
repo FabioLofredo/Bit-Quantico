@@ -17,14 +17,19 @@ jquery pro menu, e ver o root dos arquivos
 
 */
 
+/*
 $(document).ready(function(){ 
     $.get("menu.html", function(data) {
       $("#menu").html(data);
     });
 }); 
-
-
-
+*/
+function createMenu(){
+  $.get("menu.html", function(data){$("#menu").html(data);});
+}
+function createMenuInsideFolder(){
+  $.get("../menu_inside_folder.html", function(data){$("#menu").html(data);});
+}
 $(function() {
     // jQuery goes here...
   
