@@ -1,3 +1,3 @@
 # Bit-Quantico
-
-https://fabiolofredo.github.io/bit-quantico/
+http://www.ensinobitquantico.com/
+//https://fabiolofredo.github.io/bit-quantico/
